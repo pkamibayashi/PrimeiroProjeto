@@ -101,3 +101,18 @@ for (let i = 0; i < 4; i++) {
 }
 
 console.log(arrayDeObjetos);
+
+
+
+
+
+function relatorio (objeto) {
+  for (let i= 0; i<objeto.length ; i++){
+    console.log(`${objeto[i].nome.toUpperCase()}
+    valor = ${objeto[i].valor}
+    ingredientes = ${objeto[i].ingredientes}
+    Entrega Urgente? = ${JSON.stringify(objeto[i].Urgente)}`)
+  }
+}
+
+toString(relatorio(verificaObjetos))
