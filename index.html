@@ -1,75 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="script.js" defer></script>
-  <title>Loja de Bolo</title>
-</head>
-<body>
-  <header></header>
-  <main>
-    <input type="text">
-    <button></button>
-    <section>
-      <ul>
-        <li>Nome: Bolo de Chocolate </li>
-        <li>Valor: R$19.90</li>
-        <li>Ingredientes:        'leite',
-          'óleo',
-          'farinha de trigo',
-          'chocolate',
-          'açucar',
-          'ovos',
-          'fermento em pó'</li>
-          <li>URGENTE: SIM</li>
-      </ul>
-    </section>
-    <section>
-      <ul>
-        <li>Nome: Bolo de Maracuja' </li>
-        <li>Valor: R$15.80</li>
-        <li>Ingredientes:        'ovos',
-          'óleo',
-          'farinha de trigo',
-          'suco de maracujá',
-          'fermento em pó'</li>
-          <li>URGENTE: NÃO</li>
-      </ul>
-    </section>
-    <section>
-      <ul>
-        <li>Nome: Bolo de Abacaxi' </li>
-        <li>Valor: R$16.70</li>
-        <li>Ingredientes:        'açucar',
-          'ovos',
-          'margarina',
-          'farinha de trigo',
-          'leite',
-          'fermento para bolo',
-          'abacaxi cortado'</li>
-          <li>URGENTE: NÃO</li>
-      </ul>
-    </section>
-    <section>
-      <ul>
-        <li>Nome: Bolo de Morango' </li>
-        <li>Valor: R$19.00</li>
-        <li>Ingredientes:        'ovos',
-          'açucar',
-          'farinha de trigo',
-          'leite quente',
-          'fermento em pó',
-          'leite condensado',
-          'creme de leite',
-          'amido de milho',
-          'morango',
-          'chantily'</li>
-          <li>URGENTE: SIM</li>
-      </ul>
-    </section>
-  </main>
-  <footer></footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Loja de Bolo</title>
+  </head>
+  <body>
+    <header>
+      <h1>Bolos</h1>
+    </header>
+    <main>
+      <div id="botao">
+        <input
+          for="pesquisa"
+          type="text"
+          id="busca"
+          placeholder="O que procura?"
+        />
+        <button id="pesquisa">Buscar</button>
+      </div>
+
+      <section>
+        <!--------------------------------->
+        <!--------------------------------->
+        <!--------------------------------->
+        <!-- 
+        <div class="containerDeItens">
+          <ul>
+            <div class="foto">
+              <img src="/imgs/bolo de chocolate.webp" alt="" />
+            </div>
+            <div class="itens">
+              <li>
+                Nome:
+                <a
+                  href="https://www.tudogostoso.com.br/receita/62547-a-melhor-receita-de-bolo-de-chocolate.html"
+                  >Bolo de Chocolate</a
+                >
+              </li>
+              <li>Valor: R$19.90</li>
+              <li class="ingrediente">
+                Ingredientes: 'leite', 'óleo', 'farinha de trigo', 'chocolate',
+                'açucar', 'ovos', 'fermento em pó'
+              </li>
+              <li>URGENTE: SIM</li>
+            </div>
+          </ul>
+        </div>
+       -----------------------------
+        -----------------------------
+        -----------------------------
+
+        <div class="containerDeItens">
+          <ul>
+            <div class="foto">
+              <img src="/imgs/bolo de maracuja.webp" alt="Bolo de maracujá" /> -->
+        <!-- </div>
+            <div class="itens">
+              <li>
+                Nome:
+                <a
+                  href="https://www.tudogostoso.com.br/receita/112290-bolo-de-maracuja-fofinho.html"
+                  >Bolo de Maracuja</a
+                >
+              </li>
+              <li>Valor: R$15.80</li>
+              <li class="ingrediente">
+                Ingredientes: 'ovos', 'óleo', 'farinha de trigo', 'suco de
+                maracujá', 'fermento em pó'
+              </li>
+              <li>URGENTE: NÃO</li>
+            </div>
+          </ul>
+        </div> -->
+
+        <!---------------------------------><!---------------------------------><!--------------------------------->
+
+        <!-- <div class="containerDeItens">
+          <ul>
+            <div class="foto">
+              <img src="/imgs/bolo de abacaxi.jpg" alt="Bolo de abacaxi" />
+            </div>
+            <div class="itens">
+              <li>
+                Nome:
+                <a
+                  href="https://www.tudogostoso.com.br/receita/119474-bolo-de-abacaxi-caramelizado-muito-simples.html"
+                  >Bolo de Abacaxi</a
+                >
+              </li>
+              <li>Valor: R$16.70</li>
+              <li class="ingrediente">
+                Ingredientes: 'açucar', 'ovos', 'margarina', 'farinha de trigo',
+                'leite', 'fermento para bolo', 'abacaxi cortado'
+              </li>
+              <li>URGENTE: NÃO</li>
+            </div>
+          </ul>
+        </div> -->
+        <!--------------------------------->
+        <!--------------------------------->
+        <!--------------------------------->
+
+        <!-- <div class="containerDeItens">
+          <ul>
+            <div class="foto">
+              <img src="/imgs/bolo de morango.webp" alt="bolo de morango" />
+            </div>
+            <div class="itens">
+              <li>
+                Nome:
+                <a
+                  href="https://www.tudogostoso.com.br/receita/115077-bolo-de-morango-otimo-para-aniversario.html"
+                  >Bolo de Morango</a
+                >
+              </li>
+              <li>Valor: R$19.00</li>
+              <li class="ingrediente">
+                Ingredientes: 'ovos', 'açucar', 'farinha de trigo', 'leite
+                quente', 'fermento em pó', 'leite condensado', 'creme de leite',
+                'amido de milho', 'morango', 'chantily'
+              </li>
+              <li>URGENTE: SIM</li>
+            </div>
+          </ul>
+        </div>  -->
+        <!--------------------------------->
+        <!--------------------------------->
+        <!--------------------------------->
+      </section>
+    </main>
+    <footer><h2>Made By: Paulo Kamibayashi // GITHUB: PKAMIBAYASHI</h2></footer>
+  </body>
 </html>

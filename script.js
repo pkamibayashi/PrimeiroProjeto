@@ -102,17 +102,22 @@ for (let i = 0; i < 4; i++) {
 
 console.log(arrayDeObjetos);
 
-
-
-
-
-function relatorio (objeto) {
-  for (let i= 0; i<objeto.length ; i++){
+function relatorio(objeto) {
+  for (let i = 0; i < objeto.length; i++) {
     console.log(`${objeto[i].nome.toUpperCase()}
     valor = ${objeto[i].valor}
     ingredientes = ${objeto[i].ingredientes}
-    Entrega Urgente? = ${JSON.stringify(objeto[i].Urgente)}`)
+    Entrega Urgente? = ${JSON.stringify(objeto[i].Urgente)}`);
   }
 }
 
-toString(relatorio(verificaObjetos))
+toString(relatorio(verificaObjetos));
+
+const lista = document.createElement('div');
+lista.classList.add('foto');
+
+console.log(lista);
+
+const fotoChocolate = 
+const fotoMaracuja =
+const 
